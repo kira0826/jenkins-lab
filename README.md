@@ -59,11 +59,14 @@ Para la ejecución de la app es necesario establecer una shell que nos permita i
 Se agregan los comandos para desplegar: 
 1. npm i
 2. npm run build
-3. npm run start
-4. node app.js &
+3. npm run start &
 Nota: cabe recalcar que se usa el `&` para liberar el job de jenkins.
 
 Se verifica entonces la ejecución servidor:
 
-![image](https://github.com/user-attachments/assets/9b6017e6-af38-425a-a05c-02c0a479337c)
+![image](https://github.com/user-attachments/assets/26279765-fe7d-484e-b4f2-15c2614f9387)
 
+
+Por último se comprueba que se pueda obtener el mensaje del server en el puerto 3000.
+
+![image](https://github.com/user-attachments/assets/832d4470-7dd0-484e-bd23-0f0001c348de)
